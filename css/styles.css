@@ -1,0 +1,50 @@
+* {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  border-style: none;
+  border-color: black;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.image {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.qr {
+  width: 180px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+.instructions{
+  color: gray;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
